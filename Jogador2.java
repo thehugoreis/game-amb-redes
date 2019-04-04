@@ -10,16 +10,7 @@ class Jogador2 {
 	int pontosJ2 = 0;
 
 	void nome() {
-	System.out.println("\nJogador 2: Qual o seu nome?");
+	System.out.println("\nJogador 2: Qual o seu nome ou nickname?");
 	nome = resp.nextLine();
-	}
-	void sexo() {
-	System.out.println("Qual seu sexo?");
-	sexo = resp.nextLine();
-	}
-	
-	void idade() {
-	System.out.println("Qual a sua idade?");
-	idade = resp.nextLine();
 	}
 }

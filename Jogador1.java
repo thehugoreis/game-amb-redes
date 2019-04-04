@@ -10,7 +10,7 @@ class Jogador1 {
 	int pontosJ1 = 0;
 
 	void nome() {
-	System.out.println("\nJogador 1: Qual o seu nome?");
+	System.out.println("\nJogador 1: Qual o seu nome ou nickname?");
 	nome = resp.nextLine();
 	}
 }
