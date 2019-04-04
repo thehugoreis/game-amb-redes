@@ -55,10 +55,13 @@ class ex10 {
 							if (respNjogador == 1) {
 								System.out.println("\n");//Caso o jogador deseje jogar novamente uma nova linha eh impressa e o loop de perguntas reinicia
 							} else if (respNjogador == 2) {
+								/*Caso jogador nao deseje jogar novamente a variavel do loop e 
+								 *modificada para encerralo, uma mensagem de creditos aparece e o programa eh finalizado.*/
 								checagem = 0;
 								obj1.msg();
 								System.exit(0);
 							} else {
+								/* Retorna a mensagem de opcao invalida e finaliza o programa*/
 								System.out.println("\nOpcao invalida");
 								System.exit(0);
 							}
@@ -67,11 +70,12 @@ class ex10 {
 
 					} else if (numJogadores == 2) {
 
+						//Metodos que perguntam o nome ou nick de cada um dos jogadores.
+						pgt.jgd1();
+						pgt.jgd2();
+						
 						while (checagem == 1) {
 
-							pgt.jgd1();
-							pgt.jgd2();
-						
 							pgt.aviso1();
 							pgt.a1();
 							pgt.b1();
@@ -85,20 +89,24 @@ class ex10 {
 							pgt.avisoFinal();
 
 							System.out.println("\nDesejam jogar novamente? [1 - sim]/[2 - nao]");
-							int respNjogador = resp.nextInt();
+							int respNjogador = resp.nextInt();//Registra decisao do jogador em jogar novamente ou nao.
 
 							if (respNjogador == 1) {
-								System.out.println("\nOk");
+								System.out.println("\n");//Caso o jogador deseje jogar novamente uma nova linha eh impressa e o loop de perguntas reinicia
 							} else if (respNjogador == 2) {
+								/*Caso jogador nao deseje jogar novamente a variavel do loop e 
+								 *modificada para encerralo, uma mensagem de creditos aparece e o programa eh finalizado.*/
 								checagem = 0;
 								obj1.msg();
 								System.exit(0);
 							} else {
+								/* Retorna a mensagem de opcao invalida e finaliza o programa*/
 								System.out.println("\nOpcao invalida");
 							}
 						}
 
 					} else {
+						//Volta para a escolha do numero de jogadores caso a escolha nao seja valida.
 						System.out.println("\nOpcao Invalida!\n");
 						menIni.resetTojogador();
 					}
@@ -106,6 +114,7 @@ class ex10 {
 				}
 
 			} else {
+				//Volta para o menu inicial casa a escolha de uma opcao nao seja valida.
 
 				System.out.println("\nOpcao invalida!");
 				menIni.resetIni();
