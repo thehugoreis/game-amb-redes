@@ -8,11 +8,13 @@ class perguntas {
 	Jogador1 j1 = new Jogador1();
 	Jogador2 j2 = new Jogador2();
 
+	//Metodo para ao inicio do jogo perguntar o nome do jogador 2 e zerar o numero de pontos.
 	void jgd1() {
 		j1.nome();
 		j1.pontosJ1 = 0;
 	}
 
+	//Metodo para ao inicio do jogo perguntar o nome do jogador 2 e zerar o numero de pontos.
 	void jgd2() {
 		j2.nome();
 		j2.pontosJ2 = 0;
@@ -114,6 +116,7 @@ class perguntas {
 		}
 	}
 
+	//Aviso final do jogo onde sera calculado o vencedor ou o empate.
 	void avisoFinal() {
 		System.out.println("\nO jogador vencedor foi:");
 		
