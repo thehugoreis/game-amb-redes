@@ -1,11 +1,12 @@
 
 //Versao 2
-public class exnAleat2 {
+class exnAleat2 {
    
- public static void main(String[] args) {
-          
-  int NROALEAT = (int) (Math.random()*3);
-          System.out.println(NROALEAT);
+	int NROALEAT;
+
+ 	void aleat2() {
+ 
+	  NROALEAT = (int) (Math.random()*4);
    
  }
 
