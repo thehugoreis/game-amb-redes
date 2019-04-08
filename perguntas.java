@@ -8,7 +8,7 @@ class perguntas {
 	Jogador1 j1 = new Jogador1();
 	Jogador2 j2 = new Jogador2();
 
-	//Metodo para ao inicio do jogo perguntar o nome do jogador 2 e zerar o numero de pontos.
+	//Metodo para ao inicio do jogo perguntar o nome do jogador 1 e zerar o numero de pontos.
 	void jgd1() {
 		j1.nome();
 		j1.pontosJ1 = 0;
