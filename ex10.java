@@ -1,7 +1,3 @@
-/*Crie um programa que veicule uma pergunta ao usuario, que possa ser
- * respondida com sim ou nao, sorteando esta pergunta dentre tres 
- * possiveis, repetindo a rotina quantas vezes o usuario desejar, e que
- * devolva certo ou errado de acordo com a resposta dada.*/
 
 import java.util.Scanner;
 
