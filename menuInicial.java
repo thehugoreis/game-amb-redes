@@ -28,14 +28,14 @@ class menuInicial {
 
 	//Tela onde e mostrado a descricao do jogo e seu proposito.
 	void desc() {
-		System.out.println("\nDescricao do jogo aqui!\n");
+		System.out.println("\nEste jogo foi produzido para o curso de redes como projeto de sala. O seu objetivo e registrar o nome dos jogadores, um ou mais, apresentar a eles perguntas e por fim uma pontuacao com a quantidade de acertos e o vencedor.\n");
 		System.out.println("\n\nVoltar a tela inicial? [1-Sim]/[2-Nao]");
 		telaIni = resp.nextInt();
 
 	}
 	//Tela com descricoes de como jogar.
 	void cjogar() {
-		System.out.println("\nComo jogar aqui!");
+		System.out.println("\nEste jogo funciona com a interacao do usuario inserindo numeros.\n Por exemplo:\n*****Esta e uma pergunta*****\n[1 - resposta um]\n[2 - resposta dois]\n\n**********\n O usuario/jogador deve entao inserir no console o numero correspondete a opcao de resposta desejada e pressionar a tecla enter/return.");
 		System.out.println("\n\nVoltar a tela inicial? [1-Sim]/[2-Nao]");
 		telaIni = resp.nextInt();
 
